@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/personalportfolio/
+    - /dist/cp index.html $DEPLOYPATH
+    - /dist/cp style.css $DEPLOYPATH
