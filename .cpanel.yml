@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/users/shand/Documents/Github
+ - /personalportfolio/dist/cp index.html $DEPLOYPATH
+ - /personalportfolio/dist/css/cp style.css $DEPLOYPATH
